@@ -8,9 +8,9 @@ import { contactConfig } from "../../content_option";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
-    email: "karanpreetsingh462@gmail.com",
-    name: "Karanpreet Singh",
-    message: "done",
+    email: "",
+    name: "",
+    message: "",
     loading: false,
     show: false,
     alertmessage: "",
